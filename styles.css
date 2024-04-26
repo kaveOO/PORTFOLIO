@@ -36,7 +36,7 @@ header {
 
 #logo {
     margin: 30px;
-    width: 65px;
+    width: 55px;
 }
 
 header h4 {
@@ -50,6 +50,11 @@ header h4 {
     margin: 10px;
     text-decoration: none;
     padding: 4px;
+}
+
+.navbar a:hover {
+    color: #044cb4;
+    transition: ease .5s;
 }
 
 .splitter {
@@ -94,7 +99,6 @@ header h4 {
     letter-spacing: 2px;
     font-family: myFont;
     margin-bottom: 20px;
-    color: white;
 }
 
 #languages-container {
@@ -396,16 +400,20 @@ header h4 {
     text-align: center;
     border-radius: 10px;
     margin: 5px;
+    padding: 5px;
 }
 
 #about {
     display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     height: auto;
 }
 
 #intro {
-    align-items: center;
+    display: flex;
+    justify-content: center;
     margin: auto;
     height: 550px;
     width: 700px;
@@ -421,6 +429,7 @@ header h4 {
     font-family: myFont;
     font-size: 25px;
 }
+
 
 
 
