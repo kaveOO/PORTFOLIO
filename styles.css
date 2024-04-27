@@ -50,11 +50,12 @@ header h4 {
     margin: 10px;
     text-decoration: none;
     padding: 4px;
+    border-radius: 5px;
 }
 
 .navbar a:hover {
-    color: #044cb4;
-    transition: ease .5s;
+    transition: ease-out .5s;
+    background-color: #202020;
 }
 
 .splitter {
@@ -399,7 +400,6 @@ header h4 {
 #socials a {
     text-align: center;
     border-radius: 10px;
-    margin: 5px;
     padding: 5px;
 }
 
