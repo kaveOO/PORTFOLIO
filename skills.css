@@ -1,0 +1,110 @@
+#skills-absolute-container { /* ABSOLUTE SKILLS CONTAINER */
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+#skills-container { /* SKILLS CONTAINER */
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+#skills-title { /* TITLE OF EACH SKILLS CONTAINERS */
+    margin-bottom: 20px;
+}
+
+#skills-languages-container { /* ALL SKILLS CONTAINERS */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#skills-logo-container { /* BLUR CONTAINER BEHIND SKILLS LOGO */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    background-color: rgba(50, 50, 50, 15%);
+    border-radius: 20px;
+    padding: 32px;
+    z-index: 20;
+}
+
+#skills-logo-container img { /* PARAMETERS OF ALL THE LOGOS */
+    padding: 2px;
+    width: 70px;
+}
+
+/* COLORS & PARAMETERS OF ALL THE SKILLS */
+/* COLORS & PARAMETERS OF ALL THE SKILLS */
+/* COLORS & PARAMETERS OF ALL THE SKILLS */
+/* COLORS & PARAMETERS OF ALL THE SKILLS */
+/* COLORS & PARAMETERS OF ALL THE SKILLS */
+
+.containers-parameters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+#container-html { 
+    background: linear-gradient(#e64c2c, #c97c6c, #acabac);
+}
+
+#container-css {
+    background: linear-gradient(#2c4ce6, #4b74f1, #699cfc);
+}
+
+#container-tail {
+    background: linear-gradient(#e7e7e7, #87d2d3, #26bdbe);                                           
+}
+
+#container-js {
+    background: linear-gradient(#f8e433, #ebcf29, #ddba1f);
+}
+
+#container-sql {
+    background: linear-gradient(#e6e6e6, #8ebbcc, #358fb1);
+}
+
+#container-vscode {
+    background: linear-gradient(#3492f2, #2068c3, #0c3d93);
+}
+
+#container-vs {
+    background: linear-gradient(#6c62cb, #9487e0, #bcacf4);
+}
+
+#container-davincii {
+    background: linear-gradient(#7f7e7d, #95383f, #f83d4c);
+}
+
+#container-photoshop {
+    background: linear-gradient(#5f6d96, #325da5, #044cb4);
+}
+
+#container-vegas {
+    background: linear-gradient(#4368f9, #6e90fa, #98b7fb);
+}
+
+#container-react {
+    background: linear-gradient(#5f5f5f, #1a4a66, #04649c);
+}
+
+#container-python {
+    background: linear-gradient(#314457, #929252, #f3df4c);
+}
+
+#container-cpp {
+    background: linear-gradient(#4c81ba, #76a3d0, #9fc5e5);
+}

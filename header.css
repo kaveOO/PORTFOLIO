@@ -1,0 +1,38 @@
+header { /* HEADER ON TOP */
+    z-index: 1000;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    top: 0;
+    right: 50px;
+    left: 50px;
+    backdrop-filter: blur(10px);
+}
+
+header h4 { /* FULL LEFT OF HEADER */
+    font-weight: 500;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.navbar a { /* MIDDLE NAVBAR */
+    font-size: large;
+    margin: 10px;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.navbar a:hover { /* MIDDLE NAVBAR WHEN HOVERED */
+    transition: ease-out .5s;
+    background-color: #202020;
+}
+
+#logo { /* FULL RIGHT OF HEADER */
+    margin: 30px;
+    width: 55px;
+}
