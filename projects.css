@@ -61,3 +61,25 @@
     margin: 5px;
 }
 
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+
+@media screen and (max-width: 450px) {
+
+    #projects-absolute {
+        flex-direction: column;
+    }
+
+    #project-container {
+        height: auto;
+        width: auto;
+    }
+
+    #project-title {
+        font-size: 20px;
+    }
+
+}

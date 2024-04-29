@@ -108,3 +108,17 @@
 #container-cpp {
     background: linear-gradient(#4c81ba, #76a3d0, #9fc5e5);
 }
+
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+
+
+@media screen and (max-width: 450px) {
+    
+    #skills-title {
+        font-size: 20px;
+    }
+}

@@ -4,14 +4,15 @@
     align-items: center;
     justify-content: center;
     height: auto;
+    width: auto;
 }
 
 #intro { /* INTRO TEXT CONTAINER */
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 550px;
-    width: 700px;
+    height: max-content;
+    width: max-content;
     padding: 50px;
 }
 
@@ -24,3 +25,9 @@
     font-family: myFont;
     font-size: 25px;
 }
+
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */
+/* RESPONSIVE PART !!! */

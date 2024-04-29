@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=200" />
     <title>kaveO's Portfolio</title>
     <link rel="icon" type="image/x-icon" href="IMAGES/LOGO.png">
     <link rel="stylesheet" href="styles.css">
@@ -20,27 +21,41 @@
         <header id="navigation">
             <h4 id="name">kaveO</h4>
 
-            <div class="navbar">
+            <nav class="navbar">
                 <a href="#">HOME</a>
                 <a href="#about-me">ABOUT ME</a>
                 <a href="#skills">SKILLS</a>
                 <a href="#projects">PROJECTS</a>
-            </div>
+            </nav>
+
+            <nav class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </nav>
 
             <img id="logo" src="IMAGES/LOGO.png" alt="logo">
         </header>
+
+        <div class="off-screen-menu">
+            <a href="#">HOME</a>
+            <a href="#about-me">ABOUT ME</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+        </div>
 
         <div id="home">
             <div id="infos">
                 <img src="IMAGES/LOGO.png" alt="PROFILE PICTURE" id="pfp">
                 <H1 id="id" class="id">kaveO</H1>
-                <H2 id="hobbies">STUDENT · DEVELOPER · GAMER
+
+                <H2 id="hobbies">STUDENT<br>DEVELOPER<br>GAMER</H2>
 
                 <div id="socials">
-                    <a href="https://github.com/kaveOO" target="_blank"><i class="fa-brands fa-github fa-lg" style="color: #ffffff;"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin fa-lg" style="color: #ffffff;"></i></a>
-                    <a href=""><i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i></a>
-                    <a href="https://steamcommunity.com/profiles/76561198826646597/" target="_blank"><i class="fa-brands fa-steam fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="https://github.com/kaveOO" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope fa-2xl" style="color: #ffffff;"></i></a>
+                    <a href="https://steamcommunity.com/profiles/76561198826646597/" target="_blank"><i class="fa-brands fa-steam fa-2xl" style="color: #ffffff;"></i></a>
                 </div>
             </div>
         </div>
@@ -129,7 +144,7 @@
                     <div id="hover-content-txt">My portfolio is fully made of code, I took some<br>ideas from others developers and graphic<br>designers.</div>
                 </div>
                 <div id="project-links">
-                    <a href=""><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
+                    <a href="https://github.com/kaveOO/PORTFOLIO" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
                 </div>
             </div>
 
@@ -161,4 +176,5 @@
     <script src="particles.js"></script>
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/f133799ed7.js" crossorigin="anonymous"></script>
+    <script src="ham-menu.js" crossorigin="anonymous"></script>
 </html>
