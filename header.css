@@ -8,15 +8,15 @@ header { /* HEADER ON TOP */
     width: auto;
     height: 100px;
     top: 0;
-    right: 50px;
-    left: 50px;
+    right: 0;
+    left: 0;
     backdrop-filter: blur(10px);
 }
 
 header h4 { /* FULL LEFT OF HEADER */
     font-weight: 500;
     font-size: 25px;
-    margin: 30px;
+    margin: 80px;
 }
 
 .navbar a { /* MIDDLE NAVBAR */
@@ -33,6 +33,6 @@ header h4 { /* FULL LEFT OF HEADER */
 }
 
 #logo { /* FULL RIGHT OF HEADER */
-    margin: 30px;
+    margin: 80px;
     width: 55px;
 }
