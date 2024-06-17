@@ -42,15 +42,18 @@
 #hover-content-txt { /* TEXT WHEN HOVERING */
     position: absolute;
     width: 100%;
-    top: 10%;
+    top: 5%;
     margin: auto;
     visibility: hidden;
 }
 
 #project-content:hover #hover-content-txt { /* WHEN PROJECT HOVERED, TEXT IS COMING */
     transform: translateY(65px);
-	transition: .5s;
+	transition: .7s;
     visibility: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #project-links { /* PROJECT LINKS CONTAINER */

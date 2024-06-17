@@ -2,28 +2,80 @@
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: auto;
     width: auto;
+    padding: 50px;
 }
 
 #intro { /* INTRO TEXT CONTAINER */
     display: flex;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-around;
     height: max-content;
     width: max-content;
-    padding: 50px;
 }
 
 #intro h3 { /* INTRO TEXT */
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 }
 
 #kaveO { /* INTRO kaveO NAME */
     font-family: myFont;
     font-size: 25px;
+}
+
+#intro-thumbnail { /* INTRO THUMBNAIL CONTAINER */
+    position: relative;
+    width: 400px;
+}
+
+#intro-thumbnail img { /* INTRO THUMBNAIL IMAGES PARAMETERS */ 
+    position: absolute;
+    width: 310px;
+    border-radius: 5px;
+}
+
+/* IMAGES WITH THEIR PARAMETERS (NEED TO ADD BLUR LATER) */
+
+#img1 { /* 1TH IMAGE */ 
+    left: 0px;
+    top: 40px;
+    width: 300px;
+    z-index: 0;
+    filter: blur(2px);
+}
+
+#img2 { /* 2ND IMAGE */ 
+    right: 65%;
+    top: -20px;
+    width: 300px;
+    z-index: 1;
+    filter: blur(1.5px);
+}
+
+#img3 { /* 3RD IMAGE */ 
+    left: 25%;
+    bottom: -110px;
+    width: 300px;
+    z-index: 2;
+    filter: blur(1px);
+}
+
+#img4 { /* 3RD IMAGE */ 
+    right: 210px;
+    top: -150px;
+    width: 300px;
+    z-index: 3;
+    filter: blur(0.5px);
+}
+
+#img5 { /* 3RD IMAGE */ 
+    left: 0;
+    bottom: 30px;
+    width: 300px;
+    z-index: 4;
+    filter: blur(0px);
 }
 
 /* RESPONSIVE PART !!! */

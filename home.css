@@ -31,10 +31,13 @@
     text-align: center;
 }
 
-#socials a { /* HOME PROFILE SOCIALS */ 
+#socials img { /* HOME PROFILE SOCIALS IMAGES */
+    width: 60px;
+}
+
+#socials img { /* HOME PROFILE SOCIALS */ 
     border-radius: 10px;
     padding: 5px; 
-    margin: 2px; 
 }
 
 /* RESPONSIVE PART !!! */
@@ -43,3 +46,4 @@
 /* RESPONSIVE PART !!! */
 /* RESPONSIVE PART !!! */
 
+ 
